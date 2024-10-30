@@ -1,0 +1,103 @@
+/* Basic styling for layout */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #f0f0f0;
+}
+
+/* Main container styling */
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* Header title styling */
+h1 {
+    font-size: 48px;
+    color: #ffffff;
+}
+
+/* Contact form styling */
+.contact-form {
+    margin-top: 30px;
+    text-align: left;
+}
+
+.contact-form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #333;
+    color: #f0f0f0;
+    font-size: 16px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    background-color: #ff4500;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: #ff6347;
+}
+
+/* Additional contact information styling */
+.contact-info {
+    margin-top: 30px;
+}
+
+.contact-info p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-info a {
+    color: #ff4500;
+    text-decoration: none;
+}
+
+.contact-info a:hover {
+    color: #ff6347;
+}
+
+/* Footer styling */
+footer {
+    background-color: #222;
+    padding: 20px;
+    text-align: center;
+    color: #cccccc;
+    margin-top: 50px;
+}
+
+.footer-content p {
+    margin: 0;
+}
+
+.social-links a {
+    color: #ff4500;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: #ff6347;
+}
